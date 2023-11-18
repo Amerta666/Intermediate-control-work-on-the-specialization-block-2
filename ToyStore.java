@@ -3,13 +3,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ToyStore {
-    private ArrayList<Toy> toys;
-    private ArrayList<Toy> prizeToys;
-    private String prizeFilePath;
+    private final ArrayList<Toy> toys;
+    private final ArrayList<Toy> prizeToys;
+    private final String prizeFilePath;
 
     public ToyStore() {
-        toys = new ArrayList<Toy>();
-        prizeToys = new ArrayList<Toy>();
+        toys = new ArrayList<>();
+        prizeToys = new ArrayList<>();
         prizeFilePath = "d:\\JAVA\\Intermediate control work on the specialization block\\prize_toys.txt";
     }
 
